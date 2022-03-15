@@ -17,6 +17,7 @@ provider:
 functions:
   graphql:
     handler: graphql.graphqlHandler
+    description: Test description
     events:
     - http:
         path: graphql
