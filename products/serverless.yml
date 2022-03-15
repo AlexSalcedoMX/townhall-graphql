@@ -22,6 +22,7 @@ functions:
     - http:
         path: graphql
         method: post
+        description: GraphQL endpoint
         cors: true
     - http:
         path: graphql
